@@ -3,6 +3,10 @@ import 'package:flutter_ex/projects/p3_news_reader/pages/news_home.dart';
 import 'package:flutter_ex/projects/p4_chat_ui/pages/chat_home.dart';
 import 'package:flutter_ex/projects/p5_note_provider/pages/notes_home.dart';
 import 'package:flutter_ex/projects/p5_note_provider/providers/note_provider.dart';
+import 'package:flutter_ex/projects/p6_weather_app/pages/weather_home.dart';
+import 'package:flutter_ex/projects/p7_expense_tracker/pages/expense_home_page.dart';
+import 'package:flutter_ex/projects/p8_gallery_app/pages/gallery_home.dart';
+import 'package:flutter_ex/projects/p9_reminder_app/pages/reminder_home.dart';
 import 'package:provider/provider.dart';
 import 'projects/p1_profile_app/pages/profile_home.dart';
 import 'package:flutter_ex/projects/p2_todo_app/pages/todo_home.dart';
@@ -31,6 +35,18 @@ class AppRouter {
             builder: (context, noteProvider, _) => const NotesHomePage(),
           ),
         );
+      case '/p6':
+        return MaterialPageRoute(builder: (_) => const WeatherHomePage());
+      case '/p7':
+        return MaterialPageRoute(builder: (_) => const ExpenseHomePage());
+      case '/p8':
+        return MaterialPageRoute(builder: (_) => const GalleryHomePage());
+      case '/p9':
+        return MaterialPageRoute(builder: (_) => const ReminderHomePage());
+
+
+
+
 
       default:
         return MaterialPageRoute(
