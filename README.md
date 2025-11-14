@@ -530,20 +530,7 @@ flutter run
 
 ---
 
-## 🎉 Kết luận
 
-Bộ 10 mini projects này giúp bạn:
-
-✅ **Master Flutter UI** - Từ basic layouts đến complex designs  
-✅ **State Management** - StatefulWidget, Provider pattern  
-✅ **API Integration** - REST APIs, JSON parsing  
-✅ **Local Storage** - SQLite, persistent data  
-✅ **Native Features** - Camera, Notifications, GPS  
-✅ **Firebase** - Authentication, cloud backend
-
-**💡 Tip:** Hoàn thành tuần tự từ Project 1 → 10 để học hiệu quả nhất!
-
----
 
 ## 📄 License
 
@@ -555,7 +542,7 @@ MIT License - Tự do sử dụng cho mục đích học tập và thương mạ
 
 **Võ Nhật Hưng**
 - GitHub: [@hunghung3012](https://github.com/hunghung3012)
-- Email: your.email@example.com
+- Email: hungvn.22it@vku.udn.vn
 
 ---
 
